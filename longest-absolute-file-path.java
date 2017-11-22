@@ -1,6 +1,5 @@
 public class Solution {
     public int lengthLongestPath(String input) {
-        // change something
         String[] paths = input.split("\n");
         int[] depth = new int[paths.length + 1];
         int maxLen = 0;
@@ -13,6 +12,6 @@ public class Solution {
             }
         }
         return maxLen;
-    }
+    }
 }
 ​
