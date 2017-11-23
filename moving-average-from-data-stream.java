@@ -6,6 +6,7 @@ class MovingAverage {
     
     /** Initialize your data structure here. */
     public MovingAverage(int size) {
+        // use a linkedlist, easy to remove and add from both ends
         k = size;
         list = new LinkedList<>();
         sum = 0;
