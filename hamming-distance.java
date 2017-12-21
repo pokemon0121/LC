@@ -3,10 +3,8 @@ public class Solution {
         int z = x ^ y;
         int r = 0;
         while (z > 0) {
-            if ((z & 1) == 1) {
-                r++;
-            }
-            z >>= 1;
+            z = z & (z - 1);
+            r++;
         }
         return r;
     }
