@@ -25,3 +25,4 @@ class MovingAverage {
  * MovingAverage obj = new MovingAverage(size);
  * double param_1 = obj.next(val);
  */
+​
