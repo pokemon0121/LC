@@ -15,7 +15,7 @@ public class Solution {
             }
             // found a word: [slow, fast)
             reverseCharArray(chars, slow, fast - 1);
-            // move together
+            // stand together
             slow = fast;
         }
         // post processing, trim
