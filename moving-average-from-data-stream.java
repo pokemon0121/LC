@@ -1,7 +1,7 @@
 class MovingAverage {
 ​
     private int k;
-    private LinkedList<Integer> list;
+    private Deque<Integer> list;
     private double sum;
     
     /** Initialize your data structure here. */
